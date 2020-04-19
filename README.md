@@ -15,5 +15,5 @@ In this repository an ID3 decision tree classifier is designed to classify the c
 | Tic_Tac_Toe | Information Gain |      84.88%     |      3.49      |
 |     Wine    | Information Gain |      91.15%     |      7.04      |
 
-![](FIGURES/TTT_IG_conf_mat2.png)*Tic_Tac_Toe Information Gain Confusion Matrix*
-![](FIGURES/IG_wine_conf.png)*Wine Information Gain Confusion Matrix*
+![](FIGURES/TTT_IG_conf_mat2.png)  *Tic_Tac_Toe Information Gain Confusion Matrix*
+![](FIGURES/IG_wine_conf.png)  *Wine Information Gain Confusion Matrix*
