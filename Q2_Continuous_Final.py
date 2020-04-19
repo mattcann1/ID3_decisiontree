@@ -1,7 +1,4 @@
-#SYDE 675
-#Matthew Cann
-#20863891
-#Assignment 2 Question 3 - Wine Dataset
+
 
 #IMPORTS.......................................................................
 import pandas as pd
@@ -15,7 +12,7 @@ import random
 
 eps = np.finfo(float).eps #Small value such that log won't fail
 
-Directory = "E:\Documents\Waterloo-Masters\SYDE 675\Assignment2"
+Directory = ""
 
 os.chdir(Directory) 
 
