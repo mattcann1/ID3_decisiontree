@@ -21,7 +21,7 @@ The confusion matrix for each dataset is shown in Figure 1 and Figure 2 for the 
 Wine dataset, respectively. 
 
 ![](FIGURES/TTT_IG_conf_mat2.png)  *Figure 1. Confusion matrix generated from Information Gain based ID3 tree for Tic Tac Toe dataset using 10 times 10-fold cross-validation.*  
-![](FIGURES/IG_wine_conf.png)  *Figure 2. Confusion matrix generated from Information Gain based ID3 tree for Wine dataset using 10 times 10-fold cross-validation.*  
+![](FIGURES/Wine_IG_conf_mat.png)  *Figure 2. Confusion matrix generated from Information Gain based ID3 tree for Wine dataset using 10 times 10-fold cross-validation.*  
 
 ## Part 1.2
 Similarly, an ID3 decision tree classifier was developed in Python to classify the datasets “Tic-TacToe Endgame” and “Wine” but was based on Gain Ratio opposed to Information gain. Gain ratio
