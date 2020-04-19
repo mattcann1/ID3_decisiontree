@@ -6,3 +6,12 @@ In this repository an ID3 decision tree classifier is designed to classify the c
     1. Repeat Part 1 using Gain-Ratio instead of Information Gain. 
 
 1. Analysis of attribute noise and class noise on ID3 decision tree classifier.
+
+## Part 1
+
+|   Dataset   |     Criteria     | Accuracy - Mean | Accuracy - STD |
+|:-----------:|:----------------:|:---------------:|:--------------:|
+| Tic-Tac_Toe | Information Gain |      84.88%     |      3.49      |
+|     Wine    | Information Gain |      91.15%     |      7.04      |
+
+![][]
