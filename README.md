@@ -43,3 +43,35 @@ Wine dataset, respectively.
 ![](FIGURES/TTT_IG_conf_mat2.png) *Figure 3. Confusion matrix generated from Gain Ratio based ID3 tree for Tic Tac Toe dataset using 10 times 10-fold cross-validation.*  
 ![](FIGURES/Wine_GR_conf_mat.png)*Figure 4. Confusion matrix generated from Gain Ratio based ID3 tree for Wine dataset using 10 times 10-fold cross-validation.*
 
+# Part 2
+In this section, the effect of attribute noise and class label noise is analyzed on an ID3 classifier decision tree using information gain. 
+
+## Part 2.1 Analysis of the effect of attribute noise
+Each dataset was classified with different levels and cases of corruption in the attributes to
+determine the effect of attribute noise on the results of the ID3 decision tree classifier. 
+Through different combinations of clean and noisy data sets the four experiments were generated as shown in Table III. 
+
+TABLE III: CASES FOR ATTRIBUTE NOISE ANALYSIS
+| Case |                         | Training Set | Testing Set | Classifier |
+|------|-------------------------|--------------|-------------|------------|
+| CvC  | Train Clean, Test Clean | X            | Y           | C          |
+| CvD  | Train Clean, Test Dirty | X            | Y^'         | C          |
+| DvC  | Train Dirty, Test Clean | X^'          | Y           | C^'        |
+| DvD  | Train Dirty, Test Dirty | X^'          | Y^'         | C^'        |
+
+
+Each case was conducted for a varying degree of noise. The three levels used were 5%, 10% and 15%. For each case, the datasets were classified using ID3 Information Gain decision trees and execute 10-fold cross-validation 10 times. The classification accuracy for each case is shown in Figure 5 and Figure 6.
+
+![](FIGURES/TTT_Attribute_noise.png)*Figure 5. Attribute noise classification accuracy for Tic Tac Toe dataset.*  
+![](FIGURES/Wine_Attribute_noise.png)*Figure 6. Attribute noise classification accuracy for Wine dataset.*  
+
+##Part 2.2 Analysis of the effect of class-label noise 
+
+Each dataset was classified with different levels of corruption in the training data class labels through the sources of Contradictory examples and misclassifications to determine the effect of class-label noise on the results of the ID3 decision tree classifier.
+The three levels of noise used were 5%, 10% and 15%. The datasets were classified using ID3 Information Gain decision trees and execute 10-fold cross-validation 10 times. The classification accuracy for each case is shown in Figure 7 and Figure 8.
+
+![](FIGURES/TTT_class_noise.png)*Figure 7. Attribute noise classification accuracy for Tic Tac Toe dataset.*  
+![](FIGURES/Wine_class_noise.png)*Figure 8. Attribute noise classification accuracy for Wine dataset.*  
+
+
+
